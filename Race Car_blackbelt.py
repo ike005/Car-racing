@@ -38,7 +38,7 @@ class Game(simpleGE.Scene):
 class Racer(simpleGE.Sprite):
     def __init__(self, scene):
         super().__init__(scene)
-        self.setImage("AssetPack/TopDownCar.png")
+        self.setImage("TopDownCar.png")
         self.setSize(80,40)
         self.moveSpeed = 10
         self.position = (200,400)
@@ -51,7 +51,7 @@ class Racer(simpleGE.Sprite):
 class Obstacles(simpleGE.Sprite):
     def __init__(self, scene):
         super().__init__(scene)
-        self.setImage("AssetPack/TopDownCar.png")
+        self.setImage("TopDownCar.png")
         self.setSize(80,40)
         self.minSpeed = 6
         self.maxSpeed = 12
